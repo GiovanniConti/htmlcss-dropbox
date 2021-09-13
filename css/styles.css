@@ -1,0 +1,144 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/************************************************
+* Stili Tag
+************************************************/
+
+
+/************************************************
+* Stili Classi
+************************************************/
+
+[class*="col_"] {
+    float: left;
+}
+  
+.col_1_9 {
+width: calc(100% / 9);
+}
+
+.col_2_9 {
+width: calc(100% / 9 * 2);
+}
+
+.col_3_9 {
+width: calc(100% / 9 * 3);
+}
+
+.col_4_9 {
+width: calc(100% / 9 * 4);
+}
+
+.col_5_9 {
+width: calc(100% / 9 * 5);
+}
+
+.col_6_9 {
+width: calc(100% / 9 * 6);
+}
+
+.nav{
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: white;
+}
+
+.nav__listContainer{
+    width: 50%;
+    float: left;
+    text-align: left;
+    padding: 20px 10px;
+    line-height: 50px;
+}
+
+.nav__listContainer--right{
+    width: 50%;
+    float: right;
+    text-align: right;
+}
+
+.nav__listContainer__list{
+    list-style: none;
+}
+.nav__listContainer__list__item{
+    display: inline-block;
+    margin: 0 15px;
+}
+
+.nav__listContainer__list__item__link{
+    text-decoration: none;
+    color: black;
+}
+
+.nav__listContainer__list__item__link__btn,
+.hero__heroSection__containerLeft__btn{
+    color: white;
+    background-color: #0061ff;
+    padding: 5px 10px;
+    border: 0;
+}
+
+.hero{
+    width: 100%;
+    background-color: #b4d0e7;
+    margin-top: 90px;
+}
+
+.hero__heroSection{
+    width: 80%;
+    margin: auto;
+    transform: translateY(60px);
+}
+
+.hero__heroSection__title{
+    font-size: 77px;
+}
+
+.hero__heroSection__containerLeft{
+    margin-top: 25px;
+    font-size: 16px;
+    padding-right: 200px;
+}
+
+.hero__heroSection__containerLeft__par{
+    margin-bottom: 25px;
+}
+
+.hero__heroSection__containerLeft__text{
+    font-size: 16px;
+    font-weight: normal;
+    margin-top: 10px;
+    margin-bottom: 25px;
+}
+
+.hero__heroSection__containerLeft__arrow{
+    font-size: 25px;
+}
+
+.hero__heroSection__imgContainer{
+    margin-top: 25px;
+}
+
+.hero__heroSection__imgContainer__img{
+    width: 100%;
+}
+
+
+
+
+
+/************************************************
+* Classi Utilities
+************************************************/
+
+.clearfix:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
