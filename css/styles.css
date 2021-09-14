@@ -296,9 +296,47 @@ width: calc(100% / 9 * 6);
     padding: 10px 60px;
 }
 
+.containerPartner{
+    padding: 30px 20px;
+}
+
+.containerPartner__containerImg{
+    float: left;
+}
+
+.containerPartner__containerImg__img{
+    width: 100%;
+}
+
+.containerPartner__detail{
+    float: right;
+    padding-top: 20px;
+    padding-left: 30px;
+}
+
+.containerPartner__detail__title{
+    font-size: 25px;
+    padding-top: 30px;
+
+}
+
+.containerPartner__detail__par{
+    padding: 30px 0;
+}
+
+.containerPartner__detail__btn{
+    border: 1px solid black;
+    background-color: white;
+    padding: 8px 16px;
+}
 
 
 
+
+.containerMainSmall__businessTitle{
+    font-size: 40px;
+    padding: 30px 20px;
+}
 
 
 
