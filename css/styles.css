@@ -9,41 +9,44 @@
 * Stili Tag
 ************************************************/
 
+body{
+    width: 1440px;
+}
 
 /************************************************
 * Stili Classi
 ************************************************/
 
-[class*="col_"] {
+[class*="colw_"] {
     float: left;
 }
   
-.col_1_9 {
+.colw_1_9 {
 width: calc(100% / 9);
 }
 
-.col_2_9 {
+.colw_2_9 {
 width: calc(100% / 9 * 2);
 }
 
-.col_3_9 {
+.colw_3_9 {
 width: calc(100% / 9 * 3);
 }
 
-.col_4_9 {
+.colw_4_9 {
 width: calc(100% / 9 * 4);
 }
 
-.col_5_9 {
+.colw_5_9 {
 width: calc(100% / 9 * 5);
 }
 
-.col_6_9 {
+.colw_6_9 {
 width: calc(100% / 9 * 6);
 }
 
 .nav{
-    width: 100%;
+    width: 1440px;
     position: fixed;
     top: 0;
     left: 0;
@@ -79,10 +82,12 @@ width: calc(100% / 9 * 6);
 }
 
 .nav__listContainer__list__item__link__btn,
-.hero__heroSection__containerLeft__btn{
+.hero__heroSection__containerLeft__btn,
+.containerCol__col__containerPrice__btn,
+.containerEnterprise__detail__btn{
     color: white;
     background-color: #0061ff;
-    padding: 5px 10px;
+    padding: 6px 20px;
     border: 0;
 }
 
@@ -105,7 +110,7 @@ width: calc(100% / 9 * 6);
 .hero__heroSection__containerLeft{
     margin-top: 25px;
     font-size: 16px;
-    padding-right: 200px;
+    padding-right: 150px;
 }
 
 .hero__heroSection__containerLeft__par{
@@ -131,8 +136,188 @@ width: calc(100% / 9 * 6);
     width: 100%;
 }
 
+.containerMainSmall{
+    margin: auto;
+    width: 80%;  
+}
+
+.containerMainSmall--top{
+    margin-top: 100px;
+}
+
+.containerMainSmall__titlePiano{
+    font-size: 40px;
+    padding-left: 20px;
+}
+
+.containerMainSmall__containerForm{
+    padding-left: 20px;
+}
+
+.containerMainSmall__containerForm__form{
+    padding-top: 30px;
+    padding-bottom: 15px;
+}
+
+.containerMainSmall__containerForm__form__lable{
+    margin-right: 15px;
+    font-size: small;
+}
+
+.containerCol{
+    width: 100%;
+}
+
+.containerCol__col{
+    padding: 0 20px;
+}
+
+.containerCol__col--border{
+    border: 1px solid lightgray;
+    min-height: 980px;
+}
+
+.containerCol__col__containerSmallTitle{
+    border-bottom: 1px solid lightgray;
+    width: 100%;
+    text-align: center;
+    padding: 5px 0;
+}
+
+.containerCol__col__containerSmallTitle__title{
+    font-weight: normal;
+}
+
+.containerCol__col__containerPrice{
+    width: 100%;
+    border-bottom: 0;
+    padding: 0 20px;
+    padding-top: 30px;
+}
+
+.containerCol__col__containerPrice__title{
+    font-size: 25px;
+    padding-bottom: 15px;
+}
+
+.containerCol__col__containerPrice__price{
+    font-size: 16px;
+    padding-bottom: 10px;
+}
+
+.containerCol__col__containerPrice__detail{
+    font-size: 16px;
+    padding-bottom: 30px;
+}
+
+.containerCol__col__containerPrice__list{
+    list-style: none;
+}
+
+.containerCol__col__containerPrice__list__item{
+    padding: 10px 0;
+}
+
+.containerCol__col__containerPrice__btn{
+    width: 100%;
+    margin-top: 30px;
+}
+
+.containerCol__col__containerPrice__buyNow{
+    font-size: 16px;
+    padding: 15px 0;
+}
+
+.containerCol__col__hr{
+    width: 10%;
+    color: lightgray;
+}
+
+.containerCol__col__containerList{
+    width: 100%;
+    border-top: 0;
+    padding: 0 20px;
+    padding-top: 30px;
+    padding-bottom: 50px;
+}
+
+.containerCol__col__containerList__list{
+    list-style: none;
+}
+
+.containerCol__col__containerList__list__item{
+    padding: 15px 0;
+}
+
+.containerCol__col__containerList__list__item--first{
+    font-size: 17px;
+    font-weight: bold;
+}
+
+.containerEnterprise{
+    width: 100%;
+    padding: 50px 20px;
+}
+
+.containerEnterprise__containerTitle{
+    border: 1px solid lightgray;
+    text-align: center;
+    padding: 5px 0;
+}
+
+.containerEnterprise__containerTitle__title{
+    font-weight: normal;
+}
+
+.containerEnterprise__detail{
+    border: 1px solid lightgray;
+    border-top: 0;
+    padding: 30px 20px;
+    position: relative;
+}
+
+.containerEnterprise__detail__title{
+    font-size: 25px;
+}
+
+.containerEnterprise__detail__smallTitle{
+    font-size: 16px;
+    padding: 20px 0;
+}
+
+.containerEnterprise__detail__par{
+    font-size: 15px;
+}
+
+.containerEnterprise__detail__btn{
+    position: absolute;
+    top: 30px;
+    right: 20px;
+    padding: 10px 60px;
+}
 
 
+
+
+
+
+
+
+.containerMainLarge{
+    width: 100%;
+    background-color: teal;
+    height: 100px;
+}
+
+.containerMainSmall--bottom{
+    margin-bottom: 80px;
+    height: 100px;
+    background-color: green;
+}
+
+
+
+/* Stili Footer */
 .footer{
     width: 100%;
     background-color: #000000;
@@ -153,7 +338,7 @@ width: calc(100% / 9 * 6);
 .containerFooter__listContainer__list{
     display: inline-block;
     list-style: none;
-    margin-right: 65px;
+    margin-right: 85px;
     vertical-align: top;
 }
 
@@ -189,4 +374,8 @@ width: calc(100% / 9 * 6);
     content: "";
     display: table;
     clear: both;
+  }
+
+  .checkBlue{
+      color: #0061ff;
   }
