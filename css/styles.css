@@ -2,6 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
 }
 
 /************************************************
@@ -47,6 +48,7 @@ width: calc(100% / 9 * 6);
     top: 0;
     left: 0;
     background-color: white;
+    z-index: 99;
 }
 
 .nav__listContainer{
@@ -131,7 +133,53 @@ width: calc(100% / 9 * 6);
 
 
 
+.footer{
+    width: 100%;
+    background-color: #000000;
+    padding-top: 80px;
+    padding-bottom: 35px;
+}
 
+.containerFooter{
+    width: 80%;
+    margin: auto;
+}
+
+.containerFooter__listContainer{
+    width: 100%;
+    margin-bottom: 80px;
+}
+
+.containerFooter__listContainer__list{
+    display: inline-block;
+    list-style: none;
+    margin-right: 65px;
+    vertical-align: top;
+}
+
+.containerFooter__listContainer__list__item--first{
+    padding-bottom: 15px;
+    font-weight: 900;
+}
+
+.containerFooter__listContainer__list__item__link{
+    text-decoration: none;
+    color: white;
+    font-size: 14px;
+}
+
+.containerFooter__hr{
+    width: 10%;
+}
+
+.containerFooter__containerLang{
+    margin-top: 35px;
+}
+
+.containerFooter__containerLang__lang{
+    color: white;
+    font-size: 10px
+}
 
 /************************************************
 * Classi Utilities
