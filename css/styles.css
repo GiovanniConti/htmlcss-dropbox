@@ -86,7 +86,8 @@ width: calc(100% / 9 * 6);
 .nav__listContainer__list__item__link__btn,
 .hero__heroSection__containerLeft__btn,
 .containerCol__col__containerPrice__btn,
-.containerEnterprise__detail__btn{
+.containerEnterprise__detail__btn,
+.containerIntoYourBusiness__containerbtn__btn{
     color: white;
     background-color: #0061ff;
     padding: 6px 20px;
@@ -351,7 +352,7 @@ width: calc(100% / 9 * 6);
 .dropboxUsers{
     padding-top: 100px;
     padding-left: 20px;
-    padding-bottom: 30px;
+    padding-bottom: 40px;
 }
 
 .dropboxUsers__Title{
@@ -360,21 +361,120 @@ width: calc(100% / 9 * 6);
     padding-bottom: 30px;
 }
 
-
-
-
 .containerMainLarge{
     width: 100%;
-    background-color: teal;
-    height: 100px;
+    background-color: #b4d0e7;
+}
+
+.containerPartners{
+    width: 100%;
+}
+
+.containerPartners__containerBox{
+    float: left;
+    width: 30%;
+}
+
+.containerPartners__containerBoxLarge{
+    float: left;
+    width: 40%;
+    height: 30vw;
+    overflow: auto;
+    background-color: rgb(245, 245, 245);
+    padding: 50px;
+}
+
+.containerPartners__containerBox__box{
+    float: left;
+    width: 50%;
+    height: calc(30vw / 2);
+}
+
+.containerPartners__containerBox__box__img{
+    width: 60%;
+    position: relative;
+    top:50%;
+    left:50%;
+    transform: translate(-50%, -50%);
+    filter: invert(100%);
+}
+
+.containerPartners__containerBoxLarge__boxLarge__img{
+    width: 30%;
+    padding-bottom: 30px;
+}
+
+.containerPartners__containerBoxLarge__boxLarge__hr{
+    width: 15%;
+    background-color: rgb(226, 226, 227);
+}
+
+.containerPartners__containerBoxLarge__boxLarge__par{
+    font-size: 14px;
+    padding: 40px 0;
+}
+
+.containerPartners__containerBoxLarge__boxLarge__quoteName{
+    font-size: 14px;
+    font-weight: normal;
+}
+
+.containerIntoYourBusiness{
+    width: 80%;
+    margin: auto;
+    padding: 100px 20px;
+}
+
+.containerIntoYourBusiness__containerText{
+    float: left;
+    width: 50%;
+}
+
+.containerIntoYourBusiness__containerText__title{
+    font-size: 40px;
+    color: #61082B;
+}
+
+.containerIntoYourBusiness__containerbtn{
+    float: right;
+}
+
+.containerIntoYourBusiness__containerbtn__btn{
+    color: black;
+    background-color: white;
+    padding: 6px 40px;
 }
 
 .containerMainSmall--bottom{
-    margin-bottom: 80px;
-    height: 100px;
-    background-color: green;
+    padding: 100px 20px;
 }
 
+.titleFAQ{
+    font-size: 25px;
+    padding-bottom: 40px
+}
+
+.containerFAQ{
+    border-top: 1px solid rgb(220, 220, 222);
+    padding: 30px;
+}
+
+.containerFAQ details{
+    float: left;
+}
+
+.containerFAQ__summary{
+    list-style: none;
+    font-weight: bolder;
+}
+
+.containerFAQ__arrowDown{
+    float: right;
+}
+
+.containerFAQ--last{
+    border-bottom: 1px solid rgb(220, 220, 222);
+}
 
 
 /* Stili Footer */
